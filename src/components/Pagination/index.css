@@ -1,0 +1,25 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.control-btn {
+  padding: 6px 14px;
+  border: none;
+  background-color: #01b4e4;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.control-btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.page-no {
+  font-weight: bold;
+}

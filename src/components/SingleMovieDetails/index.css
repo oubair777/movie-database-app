@@ -1,0 +1,49 @@
+.movie-details-container {
+  padding: 30px;
+  background-color: #f5f7fa;
+}
+
+.movie-info {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.movie-info img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.cast-heading {
+  margin-bottom: 20px;
+}
+
+.cast-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.cast-card {
+  width: 150px;
+  text-align: center;
+}
+
+.cast-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.character {
+  font-size: 14px;
+  color: gray;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}

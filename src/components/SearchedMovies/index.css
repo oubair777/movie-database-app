@@ -1,0 +1,33 @@
+.search-results-container {
+  padding: 20px;
+  min-height: 80vh;
+  background-color: #f5f7fa;
+}
+
+.no-results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.empty-content {
+  text-align: center;
+}
+
+.search-results-container h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.search-results-container p {
+  color: #555;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
