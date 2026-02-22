@@ -50,7 +50,7 @@ const TopRated = () => {
     <div className="route-page-body">
       <Navbar />
       {loading ? renderLoader() : renderTopRated()}
-      <Pagination totalPages={topRated.totalPages} apiCallBack={getTopRated}/>
+      <Pagination totalPages={topRated.totalPages} apiCallBack={getTopRated} />
     </div>
   )
 }
